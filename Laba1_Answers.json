@@ -1,0 +1,168 @@
+[{
+  "_id": {
+    "$oid": "65a17e495551b31a35b623d4"
+  },
+  "task": 2,
+  "request": "db.stats().objects.toNumber()",
+  "answer": "69330"
+},
+{
+  "_id": {
+    "$oid": "65a17f2295c6aa9831d0edb8"
+  },
+  "task": 3,
+  "request": "db.students.count()",
+  "answer": "69330"
+},
+{
+  "_id": {
+    "$oid": "65a181ca95c6aa9831d0edb9"
+  },
+  "task": 4,
+  "request": "db.students.find({Специальность:'Математика'}).count()",
+  "answer": "285"
+},
+{
+  "_id": {
+    "$oid": "65a1832a6707276cfb25e924"
+  },
+  "task": 5,
+  "request": "db.students.find({$and: [{Специальность: 'Математика'}, {Курс: 2}]}).count()",
+  "answer": "126"
+},
+{
+  "_id": {
+    "$oid": "65a1856f6707276cfb25e925"
+  },
+  "task": 6,
+  "request": "db.students.count({Специальность: 'Математика', Курс: {$ne: 2 }})",
+  "answer": "159"
+},
+{
+  "_id": {
+    "$oid": "65a187126707276cfb25e926"
+  },
+  "task": 7,
+  "request": "db.students.count({ Специальность: 'Математика', Курс: { $gt: 3 } })",
+  "answer": "41"
+},
+{
+  "_id": {
+    "$oid": "65a188db6707276cfb25e927"
+  },
+  "task": 8,
+  "request": "db.students.count({ $and: [ { Специальность: { $in: ['Юриспруденция', 'Экономика'] }, Курс: { $ne: 3 } } ] })",
+  "answer": "8622"
+},
+{
+  "_id": {
+    "$oid": "65a189eb6707276cfb25e928"
+  },
+  "task": 9,
+  "request": "db.students.distinct('Гражданств').length",
+  "answer": "183"
+},
+{
+  "_id": {
+    "$oid": "65a18d9e6707276cfb25e92a"
+  },
+  "task": 10,
+  "request": "db.students.find({}, { _id: 1, Факультет: 1, Гражданство: 1 }).sort({Гражданство: 1}).limit(10)",
+  "answer": "[\n  { _id: ObjectId('65a17829e520b7ee6702a36d') },\n  {\n    _id: ObjectId('65a17827e520b7ee6701fd27'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Филологический'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701fd78'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Инженерный'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701fd41'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Институт иностранных языков'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701ecd3'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Филологический'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701ebd6'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Физико-математических  и естественных наук'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701fd99'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Филологический'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701fd80'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Филологический'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701f77c'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Экономический'\n  },\n  {\n    _id: ObjectId('65a17827e520b7ee6701ec31'),\n    'Гражданство': '(КНДР) Корейская Народно - Демократическая Республика',\n    'Факультет': 'Филологический'\n  }\n]"
+},
+{
+  "_id": {
+    "$oid": "65a19d116707276cfb25e92c"
+  },
+  "task": 12,
+  "request": "db.students.aggregate([{ $match: { 'Номер': '1032102469' } }, { $lookup: { from: 'languages', localField: 'idLanguage', foreignField: '_id', as: 'studLanguages' } }, { $project: { '_id': 0, 'studLanguages.Languages': 1 } }])",
+  "answer": "[{studLanguages: [{Languages: ['русский', 'английский', 'немецкий', 'французский', 'испанский']}]}]"
+},
+{
+  "_id": {
+    "$oid": "65a19f226707276cfb25e92d"
+  },
+  "task": 13,
+  "request": "db.students.find({ 'idLanguage': { $exists: true, $ne: [] } }).count()",
+  "answer": "62417"
+},
+{
+  "_id": {
+    "$oid": "65a28eec918929c205b914d5"
+  },
+  "task": 14,
+  "request": "db.students.find({'idLanguage': null}).count()",
+  "answer": "6913"
+},
+{
+  "_id": {
+    "$oid": "65a29825918929c205b914d6"
+  },
+  "task": 15,
+  "request": "db.students.aggregate([{ $lookup: { from: 'languages', localField: 'idLanguage', foreignField: '_id', as: 'language_info' } }, { $match: { 'language_info.Languages': 'немецкий' } }, { $group: { _id: null, count: { $sum: 1 } } }, {$project: {_id: 0, count: 1}}])",
+  "answer": "34647"
+},
+{
+  "_id": {
+    "$oid": "65a29ae5918929c205b914d7"
+  },
+  "task": 16,
+  "request": "db.languages.findOne({'Languages': { $size: 3 } })['_id']",
+  "answer": "3"
+},
+{
+  "_id": {
+    "$oid": "65a2a53d918929c205b914d8"
+  },
+  "task": 17,
+  "request": "db.students.aggregate([{ $lookup: { from:'languages', localField: 'idLanguage', foreignField: '_id', as: 'language_info' } }, { $match: { 'language_info.Languages': { $size: 3 } } }, { $count: 'count' }])",
+  "answer": "13890"
+},
+{
+  "_id": {
+    "$oid": "65a2a659918929c205b914d9"
+  },
+  "task": 18,
+  "request": "db.students.aggregate([{ $lookup: { from:'languages', localField: 'idLanguage', foreignField: '_id', as: 'language_info' } }, { $match: { 'language_info.Languages': { $size: 5 } } }, { $count: 'count' }])",
+  "answer": "6942"
+},
+{
+  "_id": {
+    "$oid": "65a2a87c918929c205b914da"
+  },
+  "task": 19,
+  "request": "db.students.createIndex({ 'Факультет': 1, 'Специальность': 1 })",
+  "answer": "db.students.createIndex({ \"Факультет\": 1, \"Специальность\": 1 })"
+},
+{
+  "_id": {
+    "$oid": "65a2a9ff918929c205b914db"
+  },
+  "task": 20,
+  "request": "db.students.updateMany({'Курс': {$lt: 6}}, {$inc:{'Курс': 1}})",
+  "answer": "{\n  acknowledged: true,\n  insertedId: null,\n  matchedCount: 63858,\n  modifiedCount: 63858,\n  upsertedCount: 0\n}"
+},
+{
+  "_id": {
+    "$oid": "65a2aab3918929c205b914dc"
+  },
+  "task": 20.2,
+  "request": "db.students.find().skip(499).limit(2000).toArray()",
+  "answer": "слишком большой ответ"
+},
+{
+  "_id": {
+    "$oid": "65a2ae3c918929c205b914dd"
+  },
+  "task": 21,
+  "request": "db.students.countDocuments({'Номер': {$regex: /^.{3}209.*$/}})",
+  "answer": "3124"
+},
+{
+  "_id": {
+    "$oid": "65a2afd4918929c205b914de"
+  },
+  "task": 22,
+  "request": "db.students.countDocuments({'Номер': {$regex: /^.{3}20[0-5].*$/}})",
+  "answer": "20058"
+}]
