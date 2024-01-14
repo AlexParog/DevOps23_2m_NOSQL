@@ -1,0 +1,700 @@
+[{
+  "_id": "0100000100200",
+  "details": {
+    "type": "settlement",
+    "name": "Веселый"
+  }
+},
+{
+  "_id": "0100000100300",
+  "details": {
+    "type": "settlement",
+    "name": "Гавердовский"
+  }
+},
+{
+  "_id": "0100000100400",
+  "details": {
+    "type": "settlement",
+    "name": "Подгорный"
+  }
+},
+{
+  "_id": "0100000100500",
+  "details": {
+    "type": "settlement",
+    "name": "Родниковый"
+  }
+},
+{
+  "_id": "0100000100600",
+  "details": {
+    "type": "settlement",
+    "name": "Северный"
+  }
+},
+{
+  "_id": "0100000100700",
+  "details": {
+    "type": "settlement",
+    "name": "Ханская"
+  }
+},
+{
+  "_id": "0100000100800",
+  "details": {
+    "type": "settlement",
+    "name": "Западный"
+  }
+},
+{
+  "_id": "0100000100900",
+  "details": {
+    "type": "settlement",
+    "name": "Косинов"
+  }
+},
+{
+  "_id": "0100000101000",
+  "details": {
+    "type": "settlement",
+    "name": "Авангард"
+  }
+},
+{
+  "_id": "0100000101100",
+  "details": {
+    "type": "settlement",
+    "name": "Буровик"
+  }
+},
+{
+  "_id": "0100000101200",
+  "details": {
+    "type": "settlement",
+    "name": "Весна"
+  }
+},
+{
+  "_id": "0100000101300",
+  "details": {
+    "type": "settlement",
+    "name": "Виктория"
+  }
+},
+{
+  "_id": "0100000101400",
+  "details": {
+    "type": "settlement",
+    "name": "Восход"
+  }
+},
+{
+  "_id": "0100000101500",
+  "details": {
+    "type": "settlement",
+    "name": "Деметра"
+  }
+},
+{
+  "_id": "0100000101600",
+  "details": {
+    "type": "settlement",
+    "name": "Джанатан"
+  }
+},
+{
+  "_id": "0100000101700",
+  "details": {
+    "type": "settlement",
+    "name": "Дружба"
+  }
+},
+{
+  "_id": "0100000101800",
+  "details": {
+    "type": "settlement",
+    "name": "Заря"
+  }
+},
+{
+  "_id": "0100000101900",
+  "details": {
+    "type": "settlement",
+    "name": "Звездочка"
+  }
+},
+{
+  "_id": "0100000102000",
+  "details": {
+    "type": "settlement",
+    "name": "Звезда"
+  }
+},
+{
+  "_id": "0100000102100",
+  "details": {
+    "type": "settlement",
+    "name": "ДНТ Коммунальник"
+  }
+},
+{
+  "_id": "0100000102200",
+  "details": {
+    "type": "settlement",
+    "name": "Коммунальник 2"
+  }
+},
+{
+  "_id": "0100000102300",
+  "details": {
+    "type": "settlement",
+    "name": "Красноречье"
+  }
+},
+{
+  "_id": "0100000102400",
+  "details": {
+    "type": "settlement",
+    "name": "Лесная сказка"
+  }
+},
+{
+  "_id": "0100000102500",
+  "details": {
+    "type": "settlement",
+    "name": "Лесник"
+  }
+},
+{
+  "_id": "0100000102600",
+  "details": {
+    "type": "settlement",
+    "name": "Лесовик"
+  }
+},
+{
+  "_id": "0100000102700",
+  "details": {
+    "type": "settlement",
+    "name": "Машиностроитель"
+  }
+},
+{
+  "_id": "0100000102800",
+  "details": {
+    "type": "settlement",
+    "name": "Мичуринец"
+  }
+},
+{
+  "_id": "0100000102900",
+  "details": {
+    "type": "settlement",
+    "name": "Озерное"
+  }
+},
+{
+  "_id": "0100000103000",
+  "details": {
+    "type": "settlement",
+    "name": "Пищевик-1"
+  }
+},
+{
+  "_id": "0100000103100",
+  "details": {
+    "type": "settlement",
+    "name": "Приречный"
+  }
+},
+{
+  "_id": "0100000103200",
+  "details": {
+    "type": "settlement",
+    "name": "Проектировщик"
+  }
+},
+{
+  "_id": "0100000103300",
+  "details": {
+    "type": "settlement",
+    "name": "Птицевод"
+  }
+},
+{
+  "_id": "0100000103400",
+  "details": {
+    "type": "settlement",
+    "name": "Ромашка"
+  }
+},
+{
+  "_id": "0100000103500",
+  "details": {
+    "type": "settlement",
+    "name": "Росинка"
+  }
+},
+{
+  "_id": "0100000103600",
+  "details": {
+    "type": "settlement",
+    "name": "Сад"
+  }
+},
+{
+  "_id": "0100000103700",
+  "details": {
+    "type": "settlement",
+    "name": "Садовод-3"
+  }
+},
+{
+  "_id": "0100000103800",
+  "details": {
+    "type": "settlement",
+    "name": "Садовод-2"
+  }
+},
+{
+  "_id": "0100000103900",
+  "details": {
+    "type": "settlement",
+    "name": "Север"
+  }
+},
+{
+  "_id": "0100000104000",
+  "details": {
+    "type": "settlement",
+    "name": "Селекционер"
+  }
+},
+{
+  "_id": "0100000104100",
+  "details": {
+    "type": "settlement",
+    "name": "Строитель"
+  }
+},
+{
+  "_id": "0100000104200",
+  "details": {
+    "type": "settlement",
+    "name": "Надежда"
+  }
+},
+{
+  "_id": "0100000104300",
+  "details": {
+    "type": "settlement",
+    "name": "Эра"
+  }
+},
+{
+  "_id": "0100000104400",
+  "details": {
+    "type": "settlement",
+    "name": "Родник"
+  }
+},
+{
+  "_id": "0100000104500",
+  "details": {
+    "type": "settlement",
+    "name": "Садовод-1"
+  }
+},
+{
+  "_id": "0100000104600",
+  "details": {
+    "type": "settlement",
+    "name": "Авангард-2"
+  }
+},
+{
+  "_id": "0100000104700",
+  "details": {
+    "type": "settlement",
+    "name": "Надежда-1"
+  }
+},
+{
+  "_id": "0100000104800",
+  "details": {
+    "type": "settlement",
+    "name": "Яблонька"
+  }
+},
+{
+  "_id": "0100000104900",
+  "details": {
+    "type": "settlement",
+    "name": "Космос"
+  }
+},
+{
+  "_id": "0100000105000",
+  "details": {
+    "type": "settlement",
+    "name": "Южное"
+  }
+},
+{
+  "_id": "0100000105100",
+  "details": {
+    "type": "settlement",
+    "name": "ДНТ Новая Весна"
+  }
+},
+{
+  "_id": "0100000200100",
+  "details": {
+    "type": "settlement",
+    "name": "Гатлукай"
+  }
+},
+{
+  "_id": "0100000200200",
+  "details": {
+    "type": "settlement",
+    "name": "Псекупс"
+  }
+},
+{
+  "_id": "0100200000100",
+  "details": {
+    "type": "settlement",
+    "name": "Кошехабль"
+  }
+},
+{
+  "_id": "0100200000200",
+  "details": {
+    "type": "settlement",
+    "name": "Блечепсин"
+  }
+},
+{
+  "_id": "0100200000300",
+  "details": {
+    "type": "settlement",
+    "name": "Вольное"
+  }
+},
+{
+  "_id": "0100200000400",
+  "details": {
+    "type": "settlement",
+    "name": "Дмитриевский"
+  }
+},
+{
+  "_id": "0100200000500",
+  "details": {
+    "type": "settlement",
+    "name": "Дружба"
+  }
+},
+{
+  "_id": "0100200000600",
+  "details": {
+    "type": "settlement",
+    "name": "Егерухай"
+  }
+},
+{
+  "_id": "0100200000700",
+  "details": {
+    "type": "settlement",
+    "name": "Игнатьевский"
+  }
+},
+{
+  "_id": "0100200000800",
+  "details": {
+    "type": "settlement",
+    "name": "Казенно-Кужорский"
+  }
+},
+{
+  "_id": "0100200000900",
+  "details": {
+    "type": "settlement",
+    "name": "Кармолино-Гидроицкий"
+  }
+},
+{
+  "_id": "0100200001000",
+  "details": {
+    "type": "settlement",
+    "name": "Комсомольский"
+  }
+},
+{
+  "_id": "0100200001100",
+  "details": {
+    "type": "settlement",
+    "name": "Красный Фарс"
+  }
+},
+{
+  "_id": "0100200001200",
+  "details": {
+    "type": "settlement",
+    "name": "Красный"
+  }
+},
+{
+  "_id": "0100200001300",
+  "details": {
+    "type": "settlement",
+    "name": "Майский"
+  }
+},
+{
+  "_id": "0100200001400",
+  "details": {
+    "type": "settlement",
+    "name": "Натырбово"
+  }
+},
+{
+  "_id": "0100200001500",
+  "details": {
+    "type": "settlement",
+    "name": "Новоалексеевский"
+  }
+},
+{
+  "_id": "0100200001600",
+  "details": {
+    "type": "settlement",
+    "name": "Отрадный"
+  }
+},
+{
+  "_id": "0100200001700",
+  "details": {
+    "type": "settlement",
+    "name": "Плодопитомник"
+  }
+},
+{
+  "_id": "0100200001800",
+  "details": {
+    "type": "settlement",
+    "name": "Политотдел"
+  }
+},
+{
+  "_id": "0100200001900",
+  "details": {
+    "type": "settlement",
+    "name": "Соколов"
+  }
+},
+{
+  "_id": "0100200002000",
+  "details": {
+    "type": "settlement",
+    "name": "Хачемзий"
+  }
+},
+{
+  "_id": "0100200002100",
+  "details": {
+    "type": "settlement",
+    "name": "Ходзь"
+  }
+},
+{
+  "_id": "0100200002200",
+  "details": {
+    "type": "settlement",
+    "name": "Чехрак"
+  }
+},
+{
+  "_id": "0100200002300",
+  "details": {
+    "type": "settlement",
+    "name": "Чехрак"
+  }
+},
+{
+  "_id": "0100200002400",
+  "details": {
+    "type": "settlement",
+    "name": "Шелковников"
+  }
+},
+{
+  "_id": "0100300000100",
+  "details": {
+    "type": "settlement",
+    "name": "Красногвардейское"
+  }
+},
+{
+  "_id": "0100300000200",
+  "details": {
+    "type": "settlement",
+    "name": "Адамий"
+  }
+},
+{
+  "_id": "0100300000300",
+  "details": {
+    "type": "settlement",
+    "name": "Белое"
+  }
+},
+{
+  "_id": "0100300000400",
+  "details": {
+    "type": "settlement",
+    "name": "Бжедугхабль"
+  }
+},
+{
+  "_id": "0100300000500",
+  "details": {
+    "type": "settlement",
+    "name": "Богурсуков"
+  }
+},
+{
+  "_id": "0100300000600",
+  "details": {
+    "type": "settlement",
+    "name": "Большесидоровское"
+  }
+},
+{
+  "_id": "0100300000700",
+  "details": {
+    "type": "settlement",
+    "name": "Верхненазаровское"
+  }
+},
+{
+  "_id": "0100300000800",
+  "details": {
+    "type": "settlement",
+    "name": "Водный"
+  }
+},
+{
+  "_id": "0100300000900",
+  "details": {
+    "type": "settlement",
+    "name": "Джамбичи"
+  }
+},
+{
+  "_id": "0100300001000",
+  "details": {
+    "type": "settlement",
+    "name": "Догужиев"
+  }
+},
+{
+  "_id": "0100300001100",
+  "details": {
+    "type": "settlement",
+    "name": "Еленовское"
+  }
+},
+{
+  "_id": "0100300001200",
+  "details": {
+    "type": "settlement",
+    "name": "Лесной"
+  }
+},
+{
+  "_id": "0100300001300",
+  "details": {
+    "type": "settlement",
+    "name": "Мирный"
+  }
+},
+{
+  "_id": "0100300001400",
+  "details": {
+    "type": "settlement",
+    "name": "Набережный"
+  }
+},
+{
+  "_id": "0100300001500",
+  "details": {
+    "type": "settlement",
+    "name": "Новосевастопольское"
+  }
+},
+{
+  "_id": "0100300001600",
+  "details": {
+    "type": "settlement",
+    "name": "Папенков"
+  }
+},
+{
+  "_id": "0100300001700",
+  "details": {
+    "type": "settlement",
+    "name": "Преображенское"
+  }
+},
+{
+  "_id": "0100300001800",
+  "details": {
+    "type": "settlement",
+    "name": "Пустоселов"
+  }
+},
+{
+  "_id": "0100300001900",
+  "details": {
+    "type": "settlement",
+    "name": "Садовое"
+  }
+},
+{
+  "_id": "0100300002000",
+  "details": {
+    "type": "settlement",
+    "name": "Саратовский"
+  }
+},
+{
+  "_id": "0100300002100",
+  "details": {
+    "type": "settlement",
+    "name": "Свободный"
+  }
+},
+{
+  "_id": "0100300002200",
+  "details": {
+    "type": "settlement",
+    "name": "Уляп"
+  }
+},
+{
+  "_id": "0100300002300",
+  "details": {
+    "type": "settlement",
+    "name": "Хатукай"
+  }
+},
+{
+  "_id": "0100300002400",
+  "details": {
+    "type": "settlement",
+    "name": "Чумаков"
+  }
+}]
